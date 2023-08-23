@@ -22,6 +22,6 @@ function setup() {
       link.position(650, 440);
     }
     else {
-      rect(W/3*1.25, 0, W/3, H); // Right
+      rect(W/2*0.25, 0, W/3, H); // Right
     }
   }
