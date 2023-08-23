@@ -2,7 +2,7 @@ let W;
 let H;
 
 function setup() {
-    createCanvas(W=displayWidth-300, H=displayHeight-300);
+    createCanvas(W=displayWidth, H=displayHeight);
     noStroke();
     fill(0);
   }
@@ -22,6 +22,6 @@ function setup() {
       link.position(650, 440);
     }
     else {
-      rect(W/2, 0, W/3, H); // Right
+      rect(W/1.25, 0, W/3, H); // Right
     }
   }
