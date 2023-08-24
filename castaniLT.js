@@ -13,6 +13,8 @@ function setup() {
             // Create a anchor object using createA() function
             link = createA("https://teia.art/objkt/824511",
             "GoGG-1", "_blank");
+              // Position the anchor objects
+      link.position(150, 440);
     }
     else if (mouseX < displayWidth/1.5) {
       rect(W/3, 0, W/3, H); // Middle
@@ -29,5 +31,7 @@ function setup() {
             // Create a anchor object using createA() function
             link = createA("https://teia.art/objkt/801719",
             "GoGG-3", "_blank");
+              // Position the anchor objects
+      link.position(1150, 440);
     }
   }
