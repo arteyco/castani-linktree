@@ -9,7 +9,7 @@ function setup() {
   function draw() {
     background(204);
     if (mouseX < W/3) {
-      rect(0, 0, W/3, H/2);  // Left
+      rect(0, 0, W/3, H);  // Left
             // Create a anchor object using createA() function
             link = createA("https://teia.art/objkt/824511",
             "GoGG-1", "_blank");
@@ -17,7 +17,7 @@ function setup() {
       link.position(150, 440);
     }
     else if (mouseX < displayWidth/1.5) {
-      rect(W/3, 0, W/3, H/2); // Middle
+      rect(W/3, 0, W/3, H); // Middle
       
       // Create a anchor object using createA() function
       link = createA("https://teia.art/objkt/817364",
@@ -27,7 +27,7 @@ function setup() {
       link.position(650, 440);
     }
     else {
-      rect(910, 0, W/3, H/2); // Right
+      rect(910, 0, W/3, H); // Right
             // Create a anchor object using createA() function
             link = createA("https://teia.art/objkt/801719",
             "GoGG-3", "_blank");
